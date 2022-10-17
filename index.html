@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page Thor</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/animacao-personalizada.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar-personalizado navbar navbar-expand-lg fixed-top navbar-dark d-flex align-items-start">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo-whiletrue.png" alt="Logo Whiletrue" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                <a class="nav-link"  href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Thor</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../leadDoutorEstranho/index.html">Dr Estranho</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="position-relative">
+        <div class="div-secao-principal d-flex justify-content-between">
+            <div>
+                <img class="d-none d-md-block img-gorr desfocando" src="assets/img/secao-principal/gorr.png" alt="Imagem do Gorr">
+            </div>
+            <div class="div-meio levitando position-absolute d-flex justify-content-center">
+                <div class="position-absolute">
+                    <img class="img-trovao trovao-aumentando" src="assets/img/secao-principal/trovao.png" alt="Imagem do Trovão">
+                </div>
+                <div class="position-absolute brilhando">
+                    <img class="img-thor" src="assets/img/secao-principal/thor.png" alt="Imagem do Thor">
+                    <div class="position-absolute div-img-machado">
+                        <img class="img-machado rotacao" src="assets/img/secao-principal/machado.png" alt="Imagem do Machado">
+                    </div>
+                </div>
+               
+            </div>
+            <div>
+                <img class="d-none d-md-block img-jane desfocando" src="assets/img/secao-principal/jane.png" alt="Imagem da Jane">
+            </div>
+        </div>
+        <div class="backdrop-baixo-secao-principal position-absolute"></div>
+    </section>
+    <section class="conteudo position-relative pt-5">
+        <div class="backdrop-cima-secao-conteudo position-absolute"></div>
+        <div class="div-ingresso d-flex justify-content-center">
+            <div class="max-width">
+                <div class="d-flex justify-content-center">
+                    <img class="img-fluid img-titulo-filme" src="assets/img/secao-principal/titulo.png">
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <h2 class="titulo-conteudo">Garanta seu ingresso hoje mesmo clicando no botão comprar agora!</h2>
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://m.ingresso.com/filme/thor-amor-e-trovao?partnership=home" class="btn btn-round btn-theme">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
